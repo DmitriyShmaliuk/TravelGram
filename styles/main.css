@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+}
+
+header {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+header figure{
+    transform: translateX(6px);
+    display: flex;
+    align-items: center;
+}
+
+header figure img{
+    transform: translateY(5px);
+}
