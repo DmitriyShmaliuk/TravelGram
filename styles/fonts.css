@@ -11,3 +11,10 @@
     font-weight: bold;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../media/fonts/Myriad Pro/Myriad Pro Semibold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
