@@ -17,11 +17,39 @@ header {
 }
 
 header figure{
-    transform: translateX(6px);
+    transform: translateX(-80px);
     display: flex;
     align-items: center;
 }
 
 header figure img{
     transform: translateY(5px);
+}
+
+.search-form input{
+    font-family: "Merriweather Light", sans-serif;
+}
+
+.search-form {
+    transform: translateX(118px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 173px;
+}
+
+.search-form > * {
+    transform: translateY(27px);
+}
+
+.search-form input{
+    margin-left: 6px;
+    letter-spacing: 0.3px;
+    border: none;
+    outline: none;
+}
+
+.search-form svg {
+    transform: translate(-5px,26px);
+    cursor: pointer;
 }
