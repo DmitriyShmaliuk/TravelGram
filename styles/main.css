@@ -112,6 +112,7 @@ header figure img{
 .navigation-section li{
     list-style: none;
     font-family: "Myriad Pro", sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1.4px;
 }
@@ -180,8 +181,8 @@ header figure img{
     transform: translateY(-60px);
 }
 
-.big-slider img:nth-of-type(5){
-    transform: translateY(-290px);
+.big-slider div:nth-of-type(5) img{
+    transform: translateY(-193px);
 }
 
 .big-slider .slider-navigation{
@@ -194,6 +195,10 @@ header figure img{
     display: none;
 }
 
+.slider-navigation input + label{
+    cursor: pointer;
+}
+
 .slider-navigation input + label:before{
     display: inline-block;
     width: 6px;
@@ -202,9 +207,77 @@ header figure img{
     background-color: #ffffff;
     border: 1px solid #ffffff;
     content: '';
-    cursor: pointer;
 }
 
 .slider-navigation input:checked + label:before{
     background-color: #000000;
+}
+
+.big-slider > figure{
+    position: absolute;
+    top: 212px;
+    left: 39px;
+}
+
+.slider-content > div{
+    position: relative;
+}
+
+.slider-content h2{
+    position: absolute;
+    top: 559px;
+    left: 103px;
+    font-family: "Zurich", sans-serif;
+    font-size: 43px;
+    letter-spacing: -2.35px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.slider-content h3{
+    position: absolute;
+    top: 524px;
+    left: 39px;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+}
+
+.slider-content p{
+    position: absolute;
+    top: 616px;
+    left: 103px;
+    font-family: "Myriad Pro", sans-serif;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+}
+
+.slider-content button{
+    position: absolute;
+    top: 701px;
+    left: 105px;
+    width: 149px;
+    height: 45px;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #ffc908;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.slider-content button:after{
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #000000;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    content: '';
 }
