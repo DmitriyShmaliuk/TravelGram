@@ -144,3 +144,67 @@ header figure img{
 .social-networks li:nth-of-type(3) svg{
     height: 20px;
 }
+
+.big-slider{
+    position: relative;
+    height: 887px;
+    overflow: hidden;
+}
+
+.slider-content{
+    display: flex;
+    transition: transform 1s ease-out;
+}
+
+.slider-content.active-first{
+    transform: translateX(0);
+}
+
+.slider-content.active-second{
+    transform: translateX(-100%);
+}
+
+.slider-content.active-third{
+    transform: translateX(-200%);
+}
+
+.slider-content.active-fourth{
+    transform: translateX(-300%);
+}
+
+.slider-content.active-fifth{
+    transform: translateX(-400%);
+}
+
+.big-slider img{
+    transform: translateY(-60px);
+}
+
+.big-slider img:nth-of-type(5){
+    transform: translateY(-290px);
+}
+
+.big-slider .slider-navigation{
+    position: absolute;
+    top: 779px;
+    left: 109px;
+}
+
+.slider-navigation > input{
+    display: none;
+}
+
+.slider-navigation input + label:before{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    content: '';
+    cursor: pointer;
+}
+
+.slider-navigation input:checked + label:before{
+    background-color: #000000;
+}
