@@ -282,3 +282,17 @@ header figure img{
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
     content: '';
 }
+
+.map-section{
+    position: relative;
+    width: 606px;
+    height: 894px;
+    margin: 40px 0px 0px 10px;
+    box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
+}
+
+.map{
+    transform: translate(24px, 100px);
+    width: 556px;
+    height: 764px;
+}
