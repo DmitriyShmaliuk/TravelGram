@@ -1,4 +1,5 @@
 const bigSliderStateButtons = document.querySelectorAll('.big-slider [type=radio]');
+
 const mapOptions = {
     coordinates: {
         lat: 50.254650,
