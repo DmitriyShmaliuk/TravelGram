@@ -283,11 +283,17 @@ header figure img{
     content: '';
 }
 
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
 .map-section{
     position: relative;
     width: 606px;
     height: 894px;
-    margin: 40px 0px 0px 10px;
+    margin: 0px 0px 0px 10px;
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
 }
 
@@ -295,7 +301,7 @@ header figure img{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-right: 8px;
+    margin-right: 8px;
 }
 .map-section h2{
     transform: translate(-4px,33px);
@@ -309,3 +315,55 @@ header figure img{
     width: 556px;
     height: 764px;
 }
+
+.night-life{
+    width: 1277px;
+    height: 449px;
+    margin-right: -8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 24px 26.39px 2.61px rgba(0, 0, 0, 0.24);
+}
+
+.night-life svg{
+    width: 14px;
+}
+
+.night-life path{
+    fill: #ffc908;
+}
+
+.night-life h3{
+    font: bold 24px  Nirmala, sans-serif;
+    text-transform: uppercase;
+    color: #ffc908;
+}
+
+.night-life h2{
+    font: 400 36px "Open Sans", sans-serif;
+}
+
+.night-life p{
+    font: normal 24px "Myriad Pro", sans-serif;
+    color: #6c7374;
+}
+
+.night-life button{
+    width: 150px;
+    height: 46px;
+    font: bold 24px "Myriad Pro", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(255, 201, 8);
+    color: rgb(36, 41, 41);
+}
+
+.night-life p:nth-of-type(2){
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a8aeae;
+}
+
+
+
+
+
