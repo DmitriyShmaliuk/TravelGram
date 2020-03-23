@@ -8,7 +8,7 @@ body {
     width: 1920px;
 }
 
-header {
+body > header {
     display: flex;
     justify-content:space-around;
     width: 100%;
@@ -17,7 +17,7 @@ header {
 }
 
 header figure{
-    transform: translateX(-2px);
+    transform: translate(-2px, 7px);
     display: flex;
     align-items: center;
 }
@@ -291,8 +291,21 @@ header figure img{
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
 }
 
+.map-section header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 8px;
+}
+.map-section h2{
+    transform: translate(-4px,33px);
+    font: bold 30px "Myriad Pro", sans-serif;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
 .map{
-    transform: translate(24px, 100px);
+    transform: translate(24px, 24px);
     width: 556px;
     height: 764px;
 }
