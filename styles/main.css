@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-button:active{
+button:focus{
+    border:none;
     outline: none;
 }
 
@@ -307,6 +308,7 @@ header figure img{
     flex-direction: column;
     margin-right: 8px;
 }
+
 .map-section h2{
     transform: translate(-4px,33px);
     font: bold 30px "Myriad Pro", sans-serif;
@@ -320,7 +322,7 @@ header figure img{
     height: 764px;
 }
 
-.night-life{
+.main-content article > section{
     position: relative;
     width: 1277px;
     height: 449px;
@@ -329,45 +331,45 @@ header figure img{
     box-shadow: 0px 24px 26.39px 2.61px rgba(0, 0, 0, 0.24);
 }
 
-.night-life .content{
+.main-content article > section .content{
     width: 500px;
 }
 
-.night-life .content svg{
+.main-content article > section .content svg{
       width: 25px;
  }
 
-.night-life path{
+.main-content article > section path{
     fill: #ffc908;
 }
 
-.night-life header{
-    width: 500px;
-}
-
-.night-life h3{
+.main-content article > section h3{
     transform: translate(31px, 35px);
-    font: bold 24px  Nirmala, sans-serif;
-    letter-spacing: 5px;
+    font: bold 24px  'Nirmala', sans-serif;
     text-transform: uppercase;
     color: #ffc908;
 }
 
-.night-life h2{
+.main-content article > section h2{
     transform: translate(31px, 44px);
     padding-bottom: 6px;
-    font: 400 36px/62px "Open Sans", sans-serif;
+    font: 400 36px/62px "Nirmala", sans-serif;
+    letter-spacing: 1.2px;
     border-bottom: 3px solid #dde1f4;
 }
 
-.night-life .content p{
+.main-content article > section .content > p{
     transform: translate(39px, 62px);
     font: normal 24px/38px "Myriad Pro", sans-serif;
     letter-spacing: -1px;
     color: #6c7374;
 }
 
-.night-life button{
+.main-content article > section .icons svg{
+    width: 25px;
+}
+
+.main-content article > section button{
     transform: translate(40px, 120px);
     width: 150px;
     height: 44px;
@@ -379,7 +381,7 @@ header figure img{
     color: rgb(36, 41, 41);
 }
 
-.night-life .content p:nth-of-type(2){
+.main-content article > section .content > p:nth-of-type(2){
      transform: translate(311px, 80px);
     font: bold 26px 'Dosis Semi';
     letter-spacing: 0.5px;
@@ -387,7 +389,7 @@ header figure img{
     color: #a8aeae;
 }
 
-.night-life .icons{
+.main-content article > section .icons{
     transform: translate(410px, 50px);
     display: flex;
     justify-content: space-between;
@@ -395,17 +397,15 @@ header figure img{
     width: 100px;
 }
 
-.night-life .poster{
+.main-content article .poster{
     position: absolute;
     top: 0px;
     left: 0px;
-    transform: translate(627px, -85px);
     width: 608px;
     height: 601px;
-    background: url('../media/images/poster1.jpg') center/contain no-repeat;
 }
 
-.night-life .poster button{
+.main-content article > section .poster button{
     transform: translate(178px, 259px);
     width: 252px;
     height: 80px;
@@ -415,7 +415,7 @@ header figure img{
     border: 1px solid #ffffff;
 }
 
-.night-life .poster div{
+.main-content article > section .poster div{
     transform: translate(-4px, 425px);
     display: flex;
     margin: 0 auto;
@@ -424,16 +424,93 @@ header figure img{
     color: #ffffff;
 }
 
-.night-life .poster p{
+.main-content article > section .poster p{
     transform: translateY(-2px);
 }
 
-.night-life .poster i:nth-of-type(1){
+.main-content article > section .poster i:nth-of-type(1){
     margin-left: 23px;
     margin-right: 6px;
 }
 
-.night-life .poster i:nth-of-type(2){
+.main-content article > section .poster i:nth-of-type(2){
     margin-left: 11px;
     margin-right: 6px;
+}
+
+.main-content .treaking{
+    height: 535px;
+}
+
+.main-content article > section{
+    margin-bottom: 66px;
+}
+
+.night-life .poster{
+    transform: translate(627px, -85px);
+    background: url('../media/images/poster1.jpg') center/contain no-repeat;
+}
+
+.main-content .treaking .poster{
+    width: 572px;
+    background: url("../media/images/poster2.jpg") center/cover no-repeat;
+}
+
+.treaking .content{
+    transform: translate(608px, 63px);
+}
+
+.main-content .life-style{
+    height: 900px;
+    margin-top: 130px;
+}
+
+.main-content .life-style .poster{
+    width: 100%;
+    height: 570px;
+    background: url('../media/images/big-slider-image2.png') center/cover no-repeat;
+}
+
+.main-content .life-style .content{
+    transform: translateY(568px);
+    width: 100%;
+}
+
+.main-content .life-style h3{
+    transform: translate(32px, 25px);
+    letter-spacing: 14px;
+}
+
+.main-content .life-style h2{
+    transform: translate(34px, 41px);
+    letter-spacing: 7px;
+    border: none;
+}
+
+.main-content .life-style button{
+    transform: translate(31px, 59px);
+    width: 185px;
+    height: 57px;
+    font-size: 32px;
+}
+
+.main-content .life-style .icons{
+    transform: translate(1064px, -12px);
+    width: 173px;
+}
+
+.main-content .life-style .icons svg{
+    width: 44px;
+}
+
+.main-content .life-style .additional-information{
+    transform: translate(374px, -52px);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 400px;
+    font: 400 16px 'Nirmala', sans-serif;
+    /* letter-spacing: 5.5px; */
+    color: #a8aeae;
+    /* border: 1px solid red; */
 }
