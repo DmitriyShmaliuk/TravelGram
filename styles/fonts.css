@@ -41,6 +41,13 @@
 }
 
 @font-face {
+    font-family: 'Nirmala';
+    src: url('../media/fonts/Nirmala/nirmala-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Open Sans';
     src: url('../media/fonts/Open-Sans/opensans.ttf') format('truetype');
     font-weight: 400;
