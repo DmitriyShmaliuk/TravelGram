@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+button:active{
+    outline: none;
+}
+
 body {
     width: 1920px;
 }
@@ -317,6 +321,7 @@ header figure img{
 }
 
 .night-life{
+    position: relative;
     width: 1277px;
     height: 449px;
     margin-right: -8px;
@@ -324,46 +329,111 @@ header figure img{
     box-shadow: 0px 24px 26.39px 2.61px rgba(0, 0, 0, 0.24);
 }
 
-.night-life svg{
-    width: 14px;
+.night-life .content{
+    width: 500px;
 }
+
+.night-life .content svg{
+      width: 25px;
+ }
 
 .night-life path{
     fill: #ffc908;
 }
 
+.night-life header{
+    width: 500px;
+}
+
 .night-life h3{
+    transform: translate(31px, 35px);
     font: bold 24px  Nirmala, sans-serif;
+    letter-spacing: 5px;
     text-transform: uppercase;
     color: #ffc908;
 }
 
 .night-life h2{
-    font: 400 36px "Open Sans", sans-serif;
+    transform: translate(31px, 44px);
+    padding-bottom: 6px;
+    font: 400 36px/62px "Open Sans", sans-serif;
+    border-bottom: 3px solid #dde1f4;
 }
 
-.night-life p{
-    font: normal 24px "Myriad Pro", sans-serif;
+.night-life .content p{
+    transform: translate(39px, 62px);
+    font: normal 24px/38px "Myriad Pro", sans-serif;
+    letter-spacing: -1px;
     color: #6c7374;
 }
 
 .night-life button{
+    transform: translate(40px, 120px);
     width: 150px;
-    height: 46px;
-    font: bold 24px "Myriad Pro", sans-serif;
+    height: 44px;
+    font: bold 25px "Dosis Semi", sans-serif;
     text-transform: uppercase;
+    letter-spacing: 1.5px;
     text-align: center;
     background-color: rgb(255, 201, 8);
     color: rgb(36, 41, 41);
 }
 
-.night-life p:nth-of-type(2){
-    font-weight: bold;
+.night-life .content p:nth-of-type(2){
+     transform: translate(311px, 80px);
+    font: bold 26px 'Dosis Semi';
+    letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #a8aeae;
 }
 
+.night-life .icons{
+    transform: translate(410px, 50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
 
+.night-life .poster{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(627px, -85px);
+    width: 608px;
+    height: 601px;
+    background: url('../media/images/poster1.jpg') center/contain no-repeat;
+}
 
+.night-life .poster button{
+    transform: translate(178px, 259px);
+    width: 252px;
+    height: 80px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #ffffff;
+}
 
+.night-life .poster div{
+    transform: translate(-4px, 425px);
+    display: flex;
+    margin: 0 auto;
+    width: 351px;
+    font: italic 28px 'Dosis Semi', sans-serif;
+    color: #ffffff;
+}
 
+.night-life .poster p{
+    transform: translateY(-2px);
+}
+
+.night-life .poster i:nth-of-type(1){
+    margin-left: 23px;
+    margin-right: 6px;
+}
+
+.night-life .poster i:nth-of-type(2){
+    margin-left: 11px;
+    margin-right: 6px;
+}
