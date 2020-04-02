@@ -297,6 +297,11 @@ header figure img{
 .main-content aside section{
     width: 606px;
     margin-left: 10px;
+
+}
+
+.main-content aside section:not(.map-section){
+    margin-top: 42px;
 }
 
 .main-content article > section{
@@ -521,7 +526,6 @@ header figure img{
 
 .about-me{
     height: 893px;
-    margin-top: 42px;
     padding-top: 34px;
 }
 
@@ -572,4 +576,46 @@ header figure img{
 .about-me > figure{
     width: 100%;
     height: 494px;
+}
+
+.news-letter{
+    height: 297px;
+    background: url("../media/images/news-letter-background.png");
+    background-position-y: 40px;
+    background-size: 100%;
+}
+
+.news-letter h2{
+    padding-top: 14px;
+    font: 400 44px/1 'Pompiere';
+    letter-spacing: 5px;
+    text-align: center;
+    color: #282d2d;
+}
+
+.news-letter input{
+    display: block;
+    width: 100%;
+    margin-top: 46px;
+    padding-bottom: 15px;
+    font: 300 italic 22px/1 'Merriweather Light';
+    letter-spacing: 2px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #242929;
+    color: #a8aeae;
+}
+
+.news-letter button{
+    width:100%;
+    height: 58px;
+    margin-top: 28px;
+    font: 600 20px/1 'Dosis Semi';
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    background: #a9b3e3;
 }
