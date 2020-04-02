@@ -289,6 +289,8 @@ header figure img{
     content: '';
 }
 
+
+
 .main-content{
     display: flex;
     justify-content: space-between;
@@ -699,4 +701,25 @@ header figure img{
     color: #a8aeae;
 }
 
+.arrow-button{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    color: #ffffff;
+    cursor: pointer;
+}
 
+.arrow-button:nth-of-type(1){
+    transform: translate(38px, 568px);
+    border: 2px solid #ffffff;
+}
+
+.arrow-button:nth-of-type(2){
+    transform: translate(38px, 621px);
+    background: #e21712;
+}
