@@ -581,7 +581,7 @@ header figure img{
 
 .news-letter{
     height: 297px;
-    background: url("../media/images/news-letter-background.png");
+    background: url("../media/images/news-letter-background.png") no-repeat;
     background-position-y: 40px;
     background-size: 100%;
 }
@@ -623,7 +623,7 @@ header figure img{
 
 .categories{
     height: 325px;
-    background: url("../media/images/news-letter-background.png");
+    background: url("../media/images/news-letter-background.png") no-repeat;
     background-position-y: 49px;
     background-size: 100%;
 }
@@ -653,6 +653,50 @@ header figure img{
 .categories a{
     text-decoration: none;
     color: #575c5c;
+}
+
+.recent-post{
+    height: 787px;
+    background: url("../media/images/news-letter-background.png") no-repeat;
+    background-position-y: 54px;
+    background-size: 100%;
+}
+
+.recent-post h2{
+    padding-top: 29px;
+    margin-bottom: 38px;
+    text-align: center;
+    font: 400 44px/1 'Pompiere';
+    letter-spacing: 5px;
+}
+
+.recent-post .information{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: 0 0 25px 21px;
+    font: 400 23px/32px 'Myriad Pro';
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.recent-post .information img{
+    width: 187px;
+    height: 105px;
+}
+
+.recent-post div{
+    width: 335px;
+}
+
+.recent-post h3{
+    font-weight: 400;
+    color: #282d2d;
+}
+
+.recent-post p{
+    margin-top: 9px;
+    color: #a8aeae;
 }
 
 
