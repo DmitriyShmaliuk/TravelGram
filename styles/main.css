@@ -309,7 +309,7 @@ header figure img{
     background-color: rgb(255, 255, 255);
 }
 
-.main-content section{
+.main-content section:not(.pagination-section){
     box-shadow: 0px 34px 26.39px -0.39px rgba(0, 0, 0, 0.24);
 }
 
@@ -855,7 +855,6 @@ header figure img{
     height: 392px;
     margin: 0 auto;
     padding-left: 25px;
-    /* border: 1px solid red; */
 }
 
 .contact-me form input, .contact-me form textarea{
@@ -889,4 +888,53 @@ header figure img{
 
 .contact-me input:focus, .contact-me textarea:focus{
     outline: none;
+}
+
+.main-content .pagination-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+    padding: 0 87px 6px 63px;
+}
+
+.pagination-section .arrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: 700 25px 'Myriad Pro';
+    letter-spacing: 0.5px;
+    color: #575c5c;
+    cursor: pointer;
+}
+
+.pagination-section .left-arrow{
+    width: 137px;
+}
+
+.pagination-section .right-arrow{
+    width: 80px;
+}
+
+.pagination-section .number-section{
+    transform: translateX(-30px);
+    display: flex;
+    justify-content: space-between;
+    width: 193px;
+    padding-top: 6px;
+    color: #242929;
+}
+
+.pagination-section .number-section > p{
+    width: 54px;
+    height: 54px;
+    font: 700 20px/50px 'Myriad Pro';
+    text-align: center;
+    cursor: pointer;
+}
+
+.pagination-section .number-section > p.active{
+    background: #ffc908;
+    border-radius: 50%;
 }
