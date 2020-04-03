@@ -87,10 +87,6 @@ header figure img{
     border: 1px solid #e9e9e9;
 }
 
-.subscribe-section > button:focus{
-    outline: none;
-}
-
 .navigation-section{
     display: flex;
     justify-content: space-around;
@@ -269,7 +265,7 @@ header figure img{
     width: 149px;
     height: 45px;
     font-family: "Myriad Pro", sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
     background-color: #ffc908;
@@ -330,7 +326,7 @@ header figure img{
 
 .main-content article > section h3{
     transform: translate(31px, 35px);
-    font: bold 24px  'Nirmala', sans-serif;
+    font: 700 24px  'Nirmala', sans-serif;
     text-transform: uppercase;
     color: #ffc908;
 }
@@ -345,7 +341,7 @@ header figure img{
 
 .main-content article > section .content > p{
     transform: translate(39px, 62px);
-    font: normal 24px/38px "Myriad Pro", sans-serif;
+    font: 400 24px/38px "Myriad Pro", sans-serif;
     letter-spacing: -1px;
     color: #6c7374;
 }
@@ -358,7 +354,7 @@ header figure img{
     transform: translate(40px, 120px);
     width: 150px;
     height: 44px;
-    font: bold 25px "Dosis Semi", sans-serif;
+    font: 700 25px "Dosis Semi", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-align: center;
@@ -368,7 +364,7 @@ header figure img{
 
 .main-content article > section .content > p:nth-of-type(2){
     transform: translate(311px, 80px);
-    font: bold 26px 'Dosis Semi';
+    font: 700 26px 'Dosis Semi';
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #a8aeae;
@@ -438,6 +434,9 @@ header figure img{
 
 .main-content .life-style{
     height: 900px;
+}
+
+.main-content .life-style:nth-of-type(3){
     margin-top: 130px;
 }
 
@@ -503,7 +502,7 @@ header figure img{
 
 .map-section h2{
     transform: translate(-4px,33px);
-    font: bold 30px "Myriad Pro", sans-serif;
+    font: 700 30px "Myriad Pro", sans-serif;
     letter-spacing: 0.5px;
     text-align: center;
 }
@@ -793,4 +792,8 @@ header figure img{
 .food-and-travel svg{
     width: auto;
     height: 40px;
+}
+
+.main-content .life-style:nth-of-type(5) .poster{
+    background: url('../media/images/big-slider-image4.jpg') center/cover no-repeat;
 }
