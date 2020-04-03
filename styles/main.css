@@ -659,9 +659,9 @@ header figure img{
     background-size: 100%;
 }
 
-.recent-post h2{
+.recent-post h2, .tags h2{
     padding-top: 29px;
-    margin-bottom: 38px;
+    margin-bottom: 39px;
     text-align: center;
     font: 400 44px/1 'Pompiere';
     letter-spacing: 5px;
@@ -773,7 +773,6 @@ header figure img{
     transform: translateY(58px);
     display: flex;
     justify-content: space-around;
-   
 }
 
 .main-content .food-and-travel button{
@@ -796,4 +795,45 @@ header figure img{
 
 .main-content .life-style:nth-of-type(5) .poster{
     background: url('../media/images/big-slider-image4.jpg') center/cover no-repeat;
+}
+
+.tags{
+    height: 341px;
+    margin-bottom: 38px;
+    background: url("../media/images/tags-section-background.png") no-repeat;
+    background-position-y: 50px;
+    background-size: 100%;
+}
+
+.tags .information{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 88%;
+    height: 58%;
+    margin: 0 auto;
+}
+
+.tags .information p{
+    padding-left: 10px;
+    flex-basis: 213px;
+    font: 400 32px/47px 'Myriad Pro';
+    letter-spacing: 6.8px;
+    height: 47px;
+    border: 3px solid #ffc908;
+}
+
+.tags .information a{
+    text-decoration: none;
+    color: #242929;
+}
+
+.tags h2{
+    margin-bottom: 20px;
+}
+
+.contact-me{
+    height: 501px;
+    border-radius: 5px;
 }
