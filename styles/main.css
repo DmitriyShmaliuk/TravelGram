@@ -886,3 +886,7 @@ header figure img{
     padding-top: 16px;
     resize: none;
 }
+
+.contact-me input:focus, .contact-me textarea:focus{
+    outline: none;
+}
