@@ -289,8 +289,6 @@ header figure img{
     content: '';
 }
 
-
-
 .main-content{
     display: flex;
     justify-content: space-between;
@@ -300,7 +298,6 @@ header figure img{
 .main-content aside section{
     width: 606px;
     margin-left: 10px;
-
 }
 
 .main-content aside section:not(.map-section){
@@ -316,7 +313,7 @@ header figure img{
 }
 
 .main-content section{
-    box-shadow: 0px 18px 26.39px 2.61px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 34px 26.39px -0.39px rgba(0, 0, 0, 0.24);
 }
 
 .main-content article > section .content{
@@ -354,7 +351,7 @@ header figure img{
 }
 
 .main-content article > section .icons svg{
-    width: 25px;
+     width: 25px;
 }
 
 .main-content article > section button{
@@ -433,7 +430,6 @@ header figure img{
 .main-content article > section{
     margin-bottom: 66px;
 }
-
 
 .main-content .treaking .poster{
     width: 572px;
@@ -726,4 +722,75 @@ header figure img{
 
 .main-content section.food-and-travel{
     height: 1016px;
+}
+
+.food-and-travel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-and-travel > div{
+  width: 590px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-content .food-and-travel .poster{
+    position: static;
+}
+
+.food-and-travel .poster img{
+   height: 572px;
+   box-shadow: -2px 15px 20px -5px rgba(0, 0, 0, 0.24);
+}
+
+.main-content .food-and-travel h3{
+    transform: translateY(21px);
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.main-content .food-and-travel h2{
+    transform: translate(-1px,32px);
+    font: 400 32px/1.9 'Open Sans';
+    letter-spacing: -1.3px;
+    text-align: center;
+    border: none;
+}
+
+.food-and-travel .additional-information{
+    width: 86%;
+    margin: 40px auto 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: -1px;
+    font: 400 24px 'Open Sans';
+    color: #a8aeae;
+}
+
+.food-and-travel .action{
+    transform: translateY(58px);
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.main-content .food-and-travel button{
+    transform: translate(-24px,0px);
+    width: 186px;
+    height: 60px;
+    font: 700 32px 'Myriad Pro';
+    letter-spacing: -2.4px;
+}
+
+.main-content .food-and-travel .icons{
+    transform: translate(27px,0);
+    width: 185px;
+}
+
+.food-and-travel svg{
+    width: auto;
+    height: 40px;
 }
