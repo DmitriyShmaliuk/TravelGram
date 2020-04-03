@@ -723,3 +723,7 @@ header figure img{
     transform: translate(38px, 621px);
     background: #e21712;
 }
+
+.main-content section.food-and-travel{
+    height: 1016px;
+}
