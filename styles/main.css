@@ -298,6 +298,7 @@ header figure img{
 
 .main-content aside section:not(.map-section){
     margin-top: 42px;
+    padding-top: 31px;
 }
 
 .main-content article > section{
@@ -660,7 +661,7 @@ header figure img{
 }
 
 .recent-post h2, .tags h2{
-    padding-top: 29px;
+    /* padding-top: 29px; */
     margin-bottom: 39px;
     text-align: center;
     font: 400 44px/1 'Pompiere';
@@ -811,7 +812,7 @@ header figure img{
     align-content: space-between;
     flex-wrap: wrap;
     width: 88%;
-    height: 58%;
+    height: 64%;
     margin: 0 auto;
 }
 
@@ -836,4 +837,52 @@ header figure img{
 .contact-me{
     height: 501px;
     border-radius: 5px;
+}
+
+.contact-me h2{
+    margin-bottom: 27px;
+    font: 700 30px/1 'Open Sans';
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.contact-me form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 544px;
+    height: 392px;
+    margin: 0 auto;
+    padding-left: 25px;
+    /* border: 1px solid red; */
+}
+
+.contact-me form input, .contact-me form textarea{
+    display: block;
+    width:100%;
+    padding-left: 20px;
+    font: 400 14px/1 'Open Sans';
+    border-radius: 5px;
+    border: 1px solid #f6f8fa;
+    background: #fafbfc;
+    color: #777777;
+}
+
+.contact-me input{
+    height: 48px;
+}
+
+.contact-me button{
+    width: 119px;
+    height: 53px;
+    margin: 0 auto;
+    font: 700 24px/1 'Open Sans';
+    background: #ffc908;
+}
+
+.contact-me textarea{
+    height: 190px;
+    padding-top: 16px;
+    resize: none;
 }
