@@ -1,0 +1,27 @@
+footer{
+    width: 100%;
+}
+
+footer .social-networks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 114px;
+}
+
+.social-networks > section{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    font: 700 14px 'Myriad Pro';
+    text-transform: uppercase;
+    color: #575c5c;
+}
+
+.social-networks > section div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95px;
+    cursor: pointer;
+}
