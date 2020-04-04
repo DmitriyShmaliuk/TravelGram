@@ -1,5 +1,5 @@
 const bigSliderStateButtons = document.querySelectorAll('.big-slider [type=radio]');
-
+const navigationSection = document.querySelector('footer .navigation');
 const mapOptions = {
     coordinates: {
         lat: 50.254650,
@@ -17,6 +17,8 @@ loadMaps()
 Array.prototype.forEach.call(bigSliderStateButtons, (el)=>{
     el.addEventListener('click', changeBigSliderState, true);
 });
+
+navigationSection.addEventListener('click', clickNavagiationSectionHandler, true);
 
 function changeBigSliderState ({currentTarget}){
     const objectClasses = ['active-first','active-second','active-third','active-fourth','active-fifth'];
@@ -115,4 +117,10 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         'Error: The Geolocation service failed.' :
         'Error: Your browser doesn\'t support geolocation.');
     infoWindow.open(map);
+}
+
+function clickNavagiationSectionHandler({currentTarget}){
+    const {classList} = currentTarget;
+    const active  = Array.prototype.indexOf.call(classList, 'active') === -1;
+    active ? classList.add('active') : classList.remove('active');
 }
