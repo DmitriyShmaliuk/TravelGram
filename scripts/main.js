@@ -1,5 +1,5 @@
 const bigSliderStateButtons = document.querySelectorAll('.big-slider [type=radio]');
-const navigationSection = document.querySelector('footer .navigation');
+const footerLogo = document.querySelector('footer .navigation .logo');
 const mapOptions = {
     coordinates: {
         lat: 50.254650,
@@ -18,7 +18,7 @@ Array.prototype.forEach.call(bigSliderStateButtons, (el)=>{
     el.addEventListener('click', changeBigSliderState, true);
 });
 
-navigationSection.addEventListener('click', clickNavagiationSectionHandler, true);
+footerLogo.addEventListener('click', clickLogoHandler, true);
 
 function changeBigSliderState ({currentTarget}){
     const objectClasses = ['active-first','active-second','active-third','active-fourth','active-fifth'];
@@ -119,8 +119,8 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     infoWindow.open(map);
 }
 
-function clickNavagiationSectionHandler({currentTarget}){
-    const {classList} = currentTarget;
-    const active  = Array.prototype.indexOf.call(classList, 'active') === -1;
-    active ? classList.add('active') : classList.remove('active');
+function clickLogoHandler(){
+    const navigationSection = document.querySelector('footer .navigation');
+    const active  = Array.prototype.indexOf.call(navigationSection.classList, 'active') === -1;
+    active ? navigationSection.classList.add('active') : navigationSection.classList.remove('active');
 }
