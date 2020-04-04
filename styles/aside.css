@@ -1,3 +1,13 @@
+.main-content aside section{
+    width: 606px;
+    margin-left: 10px;
+}
+
+.main-content aside section:not(.map-section){
+    margin-top: 42px;
+    padding-top: 31px;
+}
+
 .map-section{
     position: relative;
     height: 894px;
