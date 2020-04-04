@@ -7,13 +7,14 @@ footer .social-networks{
     justify-content: center;
     align-items: center;
     height: 114px;
+    border-bottom: 1px solid #eeeeee;
 }
 
 .social-networks > section{
     display: flex;
     justify-content: space-between;
     width: 1170px;
-    font: 700 14px 'Myriad Pro';
+    font: 700 14px 'Myriad Pro', sans-serif;
     text-transform: uppercase;
     color: #575c5c;
 }
@@ -24,4 +25,48 @@ footer .social-networks{
     align-items: center;
     width: 95px;
     cursor: pointer;
+}
+
+footer .navigation{
+    width: 100%;
+    height: 332px;
+    padding-left: 120px;
+}
+
+.navigation .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 43.8%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 21px 0 33px 0px;
+}
+
+.navigation .information .logo{
+   margin-right: 120px;
+   width: 241px;
+   height: 170px;
+   background: url('../media/images/logo.png') center/contain no-repeat;
+}
+
+.navigation .information ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+
+.navigation .information li{
+    list-style: none;
+    font: 400 16px 'Myriad Pro', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.navigation .information a{
+    text-decoration: none;
+    color: #242929;
 }
