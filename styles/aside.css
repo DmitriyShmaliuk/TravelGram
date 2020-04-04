@@ -5,7 +5,7 @@
 
 .main-content aside section:not(.map-section){
     margin-top: 42px;
-    padding-top: 31px;
+    padding-top: 30px;
 }
 
 .map-section{
@@ -90,15 +90,16 @@
     height: 495px;
 }
 
-.news-letter{
-    height: 297px;
+.main-content aside section.news-letter{
+    height: 337px;
+    margin-top: 0px;
     background: url("../media/images/news-letter-background.png") no-repeat;
     background-position-y: 40px;
     background-size: 100%;
 }
 
 .news-letter h2{
-    padding-top: 14px;
+    padding-top: 26px;
     font: 400 44px/1 'Pompiere', sans-serif;
     letter-spacing: 5px;
     text-align: center;
@@ -133,14 +134,14 @@
 }
 
 .categories{
-    height: 325px;
+    height: 322px;
     background: url("../media/images/news-letter-background.png") no-repeat;
     background-position-y: 49px;
     background-size: 100%;
 }
 
 .categories h2{
-    padding-top: 24px;
+    /* padding-top: 0px; */
     text-align: center;
     font: 400 44px/1 'Pompiere', sans-serif;
     letter-spacing: 5px;
@@ -159,6 +160,10 @@
     border-bottom: 1.5px solid #ededed;
     list-style: none;
     color: #575c5c;
+}
+
+.categories li:nth-of-type(4){
+    border: none;
 }
 
 .categories a{
