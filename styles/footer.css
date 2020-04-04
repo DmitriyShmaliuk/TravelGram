@@ -31,6 +31,11 @@ footer .navigation{
     width: 100%;
     height: 332px;
     padding-left: 120px;
+    transition: 1s background ease-in;
+}
+
+footer .navigation.active{
+    background: #737373;
 }
 
 .navigation .information{
@@ -48,7 +53,12 @@ footer .navigation{
    margin-right: 120px;
    width: 241px;
    height: 170px;
+   transition: 1s background-image ease-in;
    background: url('../media/images/logo.png') center/contain no-repeat;
+}
+
+.navigation.active .information .logo{
+    background-image: url('../media/images/white-logo.png');
 }
 
 .navigation .information ul{
@@ -66,7 +76,15 @@ footer .navigation{
     letter-spacing: 3px;
 }
 
+.navigation.active .information li{
+    pointer-events: none;
+}
+
 .navigation .information a{
     text-decoration: none;
     color: #242929;
+}
+
+.navigation.active .information a{
+    cursor: default;
 }
