@@ -1,0 +1,19 @@
+{
+  "name": "travelgram",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.hmtl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliaamKing/TravelGram.git"
+  },
+  "author": "Dmitriy Shmaliuk <dmitriy.shmaliuk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliaamKing/TravelGram/issues"
+  },
+  "homepage": "https://github.com/WilliaamKing/TravelGram#readme"
+}

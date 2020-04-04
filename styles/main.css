@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button, svg{
+    cursor: pointer;
+}
+
+button:focus{
+    border:none;
+    outline: none;
+}
+
+body {
+    width: 1920px;
+}
+
+.social-networks ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}

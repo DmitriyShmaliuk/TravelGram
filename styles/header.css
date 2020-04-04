@@ -1,0 +1,257 @@
+body > header {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+header figure{
+    transform: translate(-2px, 7px);
+    display: flex;
+    align-items: center;
+}
+
+header figure img{
+    transform: translateY(5px);
+}
+
+.search-form {
+    transform: translateX(144px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 173px;
+}
+
+.search-form input{
+    font-family: "Merriweather Light", sans-serif;
+}
+
+.search-form svg{
+    height: 14px;
+}
+
+.search-form > * {
+    transform: translateY(27px);
+}
+
+.search-form input{
+    width: 140px;
+    margin-left: 6px;
+    letter-spacing: 0.3px;
+    border: none;
+    outline: none;
+}
+
+.search-form svg {
+    transform: translate(-5px,26px);
+}
+
+.subscribe-section{
+    transform: translateX(-150px);
+    display: flex;
+    align-items: center;
+    width: 155px;
+}
+
+.subscribe-section > button{
+    transform: translateY(24px);
+    width: 100%;
+    height: 40px;
+    font: 14px 'Dosis Semi', sans-serif;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #242929;
+    background: none;
+    border: 1px solid #e9e9e9;
+}
+
+.navigation-section{
+    display: flex;
+    justify-content: space-around;
+    height: 61px;
+    margin-top: 3px;
+    border-top: 1px solid #e9e9e9;
+}
+
+.navigation-section > nav{
+    transform: translateX(130px);
+    width: 765px;
+}
+
+.navigation-section .social-networks{
+    transform: translateX(-137px);
+    width: 190px;
+}
+
+.navigation-section .social-networks  li{
+    transform: translateY(-2px);
+    width: 15px;
+    height: 15px;
+}
+
+.navigation-section .social-networks  svg{
+    height: 13px;
+}
+
+.navigation-section .social-networks li:nth-of-type(3) svg{
+    height: 20px;
+}
+
+.navigation-section ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navigation-section li{
+    list-style: none;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.navigation-section li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.navigation-section li.active a{
+    color: #ffc908;
+}
+
+.big-slider{
+    position: relative;
+    height: 887px;
+    overflow: hidden;
+    box-shadow: 0px 12px 24.36px 4.64px rgba(0, 0, 0, 0.19);
+}
+
+.big-slider img{
+    transform: translateY(-60px);
+}
+
+.big-slider div:nth-of-type(5) img{
+    transform: translateY(-193px);
+}
+
+.big-slider .slider-navigation{
+    position: absolute;
+    top: 779px;
+    left: 109px;
+}
+
+.big-slider > figure{
+    position: absolute;
+    top: 212px;
+    left: 39px;
+}
+
+.slider-content{
+    display: flex;
+    transition: transform 1s ease-out;
+}
+
+.slider-content.active-first{
+    transform: translateX(0);
+}
+
+.slider-content.active-second{
+    transform: translateX(-100%);
+}
+
+.slider-content.active-third{
+    transform: translateX(-200%);
+}
+
+.slider-content.active-fourth{
+    transform: translateX(-300%);
+}
+
+.slider-content.active-fifth{
+    transform: translateX(-400%);
+}
+
+.slider-navigation > input{
+    display: none;
+}
+
+.slider-navigation input + label{
+    cursor: pointer;
+}
+
+.slider-navigation input + label:before{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    content: '';
+}
+
+.slider-navigation input:checked + label:before{
+    background-color: #000000;
+}
+
+.slider-content > div{
+    position: relative;
+}
+
+.slider-content h2{
+    position: absolute;
+    top: 559px;
+    left: 103px;
+    font:  43px "Zurich", sans-serif;
+    letter-spacing: -2.35px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.slider-content h3{
+    position: absolute;
+    top: 524px;
+    left: 39px;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+}
+
+.slider-content p{
+    position: absolute;
+    top: 616px;
+    left: 103px;
+    font-family: "Myriad Pro", sans-serif;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+}
+
+.slider-content button{
+    position: absolute;
+    top: 701px;
+    left: 105px;
+    width: 149px;
+    height: 45px;
+    font: 700 18px "Myriad Pro", sans-serif;
+    text-transform: uppercase;
+    background-color: #ffc908;
+    border: none;
+    outline: none;
+}
+
+.slider-content button:after{
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #000000;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    content: '';
+}

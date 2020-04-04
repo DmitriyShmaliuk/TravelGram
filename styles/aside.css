@@ -1,0 +1,308 @@
+.main-content aside section{
+    width: 606px;
+    margin-left: 10px;
+}
+
+.main-content aside section:not(.map-section){
+    margin-top: 42px;
+    padding-top: 30px;
+}
+
+.map-section{
+    position: relative;
+    height: 894px;
+}
+
+.map-section header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 8px;
+}
+
+.map-section h2{
+    transform: translate(-4px,33px);
+    font: 700 30px "Myriad Pro", sans-serif;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.map{
+    transform: translate(24px, 24px);
+    width: 556px;
+    height: 764px;
+}
+
+.main-content .treaking .poster{
+    width: 572px;
+    background: url("../media/images/poster2.jpg") center/cover no-repeat;
+}
+.about-me{
+    height: 893px;
+    padding-top: 34px;
+}
+
+.about-me .information{
+    width: 460px;
+    height: 363px;
+    margin: 0px 0px 5px 65px;
+    background: url("../media/images/info-section-background.png") center/contain no-repeat;
+}
+
+.about-me .information h2{
+    font: 700 30px/1 "Myriad Pro", sans-serif;
+    letter-spacing: 1.6px;
+    text-align:center;
+    color: #413f3f;
+}
+
+.about-me .information p{
+    margin-top: 14px;
+    font: 400 24px/40px "Myriad Pro", sans-serif;
+    letter-spacing: 1.6px;
+    text-align:center;
+    color: #575c5c;
+}
+
+.about-me .information h3{
+    margin: 31px 0px 0px 69px;
+    font: 700 36px/1 "Neoteric";
+    letter-spacing: 7px;
+    text-align:center;
+    color: #575c5c;
+}
+
+.about-me .social-networks{
+    width: 300px;
+    margin: 18px auto;
+}
+
+.about-me .social-networks li{
+    list-style: none;
+}
+
+.about-me .social-networks  svg{
+    height: 41px;
+}
+
+.about-me > figure{
+    width: 100%;
+    height: 495px;
+}
+
+.main-content aside section.news-letter{
+    height: 337px;
+    margin-top: 0px;
+    background: url("../media/images/news-letter-background.png") no-repeat;
+    background-position-y: 40px;
+    background-size: 100%;
+}
+
+.news-letter h2{
+    padding-top: 26px;
+    font: 400 44px/1 'Pompiere', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #282d2d;
+}
+
+.news-letter input{
+    display: block;
+    width: 100%;
+    margin-top: 46px;
+    padding-bottom: 15px;
+    font: 300 italic 22px/1 'Merriweather Light', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #242929;
+    color: #a8aeae;
+}
+
+.news-letter button{
+    width:100%;
+    height: 58px;
+    margin-top: 28px;
+    font: 600 20px/1 'Dosis Semi', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    background: #a9b3e3;
+}
+
+.categories{
+    height: 322px;
+    background: url("../media/images/news-letter-background.png") no-repeat;
+    background-position-y: 49px;
+    background-size: 100%;
+}
+
+.categories h2{
+    /* padding-top: 0px; */
+    text-align: center;
+    font: 400 44px/1 'Pompiere', sans-serif;
+    letter-spacing: 5px;
+}
+
+.categories ol{
+    width: 78%;
+    margin: 18px auto 0;
+}
+
+.categories li{
+    padding: 14px 0 14px;
+    font: 400 24px/1 'Myriad Pro', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    border-bottom: 1.5px solid #ededed;
+    list-style: none;
+    color: #575c5c;
+}
+
+.categories li:nth-of-type(4){
+    border: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: #575c5c;
+}
+
+.recent-post{
+    height: 787px;
+    background: url("../media/images/news-letter-background.png") no-repeat;
+    background-position-y: 54px;
+    background-size: 100%;
+}
+
+.recent-post h2, .tags h2{
+    margin-bottom: 39px;
+    text-align: center;
+    font: 400 44px/1 'Pompiere', sans-serif;
+    letter-spacing: 5px;
+}
+
+.recent-post .information{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: 0 0 25px 21px;
+    font: 400 23px/32px 'Myriad Pro', sans-serif;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.recent-post .information img{
+    width: 187px;
+    height: 105px;
+}
+
+.recent-post div{
+    width: 335px;
+}
+
+.recent-post h3{
+    transform: translateY(-5px);
+    font-weight: 400;
+    color: #282d2d;
+}
+
+.recent-post p{
+    margin-top: 9px;
+    color: #a8aeae;
+}
+
+.tags{
+    height: 341px;
+    margin-bottom: 38px;
+    background: url("../media/images/tags-section-background.png") no-repeat;
+    background-position-y: 50px;
+    background-size: 100%;
+}
+
+.tags .information{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 88%;
+    height: 64%;
+    margin: 0 auto;
+}
+
+.tags .information p{
+    padding-left: 10px;
+    flex-basis: 213px;
+    font: 400 32px/47px 'Myriad Pro', sans-serif;
+    letter-spacing: 6.8px;
+    height: 47px;
+    border: 3px solid #ffc908;
+}
+
+.tags .information a{
+    text-decoration: none;
+    color: #242929;
+}
+
+.tags h2{
+    margin-bottom: 20px;
+}
+
+.contact-me{
+    height: 501px;
+    border-radius: 5px;
+}
+
+.contact-me h2{
+    margin-bottom: 27px;
+    font: 700 30px/1 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.contact-me form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 544px;
+    height: 392px;
+    margin: 0 auto;
+    padding-left: 25px;
+}
+
+.contact-me form input, .contact-me form textarea{
+    display: block;
+    width:100%;
+    padding-left: 20px;
+    font: 400 14px/1 'Open Sans', sans-serif;
+    border-radius: 5px;
+    border: 1px solid #f6f8fa;
+    background: #fafbfc;
+    color: #777777;
+}
+
+.contact-me input{
+    height: 48px;
+}
+
+.contact-me button{
+    width: 119px;
+    height: 53px;
+    margin: 0 auto;
+    font: 700 24px/1 'Open Sans', sans-serif;
+    background: #ffc908;
+}
+
+.contact-me textarea{
+    height: 190px;
+    padding-top: 16px;
+    resize: none;
+}
+
+.contact-me input:focus, .contact-me textarea:focus{
+    outline: none;
+}
