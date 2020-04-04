@@ -121,6 +121,6 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 
 function clickLogoHandler(){
     const navigationSection = document.querySelector('footer .navigation');
-    const active  = Array.prototype.indexOf.call(navigationSection.classList, 'active') === -1;
+    const active = Array.prototype.indexOf.call(navigationSection.classList, 'active') === -1;
     active ? navigationSection.classList.add('active') : navigationSection.classList.remove('active');
 }
