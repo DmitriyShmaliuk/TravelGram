@@ -29,25 +29,3 @@ body {
     justify-content: space-between;
     margin-top: 40px;
 }
-
-.main-content aside section{
-    width: 606px;
-    margin-left: 10px;
-}
-
-.main-content aside section:not(.map-section){
-    margin-top: 42px;
-    padding-top: 31px;
-}
-
-.main-content article > section{
-    position: relative;
-    width: 1277px;
-    height: 449px;
-    margin-right: -8px;
-    background-color: rgb(255, 255, 255);
-}
-
-.main-content section:not(.pagination-section){
-    box-shadow: 0px 34px 26.39px -0.39px rgba(0, 0, 0, 0.24);
-}
