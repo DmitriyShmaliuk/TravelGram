@@ -1,3 +1,15 @@
+.main-content article > section{
+    position: relative;
+    width: 1277px;
+    height: 449px;
+    margin-right: -8px;
+    background-color: rgb(255, 255, 255);
+}
+
+.main-content section:not(.pagination-section){
+    box-shadow: 0px 34px 26.39px -0.39px rgba(0, 0, 0, 0.24);
+}
+
 .main-content article > section .content{
     width: 500px;
 }
@@ -50,7 +62,7 @@
 
 .main-content article > section .content > p:nth-of-type(2){
     transform: translate(311px, 80px);
-    font: 700 26px 'Dosis Semi';
+    font: 700 26px 'Dosis Semi', sans-serif;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #a8aeae;
@@ -85,7 +97,6 @@
 
 .main-content article .poster div div{
     display: flex;
-    /* width: 351px; */
     font: italic 28px 'Dosis Semi', sans-serif;
     color: #ffffff;
 }
@@ -267,7 +278,7 @@
 
 .main-content .food-and-travel h2{
     transform: translate(-1px,32px);
-    font: 400 32px/1.9 'Open Sans';
+    font: 400 32px/1.9 'Open Sans', sans-serif;
     letter-spacing: -1.3px;
     text-align: center;
     border: none;
@@ -280,7 +291,7 @@
     justify-content: space-between;
     align-items: center;
     letter-spacing: -1px;
-    font: 400 24px 'Open Sans';
+    font: 400 24px 'Open Sans', sans-serif;
     color: #a8aeae;
 }
 
@@ -294,7 +305,7 @@
     transform: translate(-24px,0px);
     width: 186px;
     height: 60px;
-    font: 700 32px 'Myriad Pro';
+    font: 700 32px 'Myriad Pro', sans-serif;
     letter-spacing: -2.4px;
 }
 
@@ -321,7 +332,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font: 700 25px 'Myriad Pro';
+    font: 700 25px 'Myriad Pro', sans-serif;
     letter-spacing: 0.5px;
     color: #575c5c;
     cursor: pointer;
@@ -347,7 +358,7 @@
 .pagination-section .number-section > p{
     width: 54px;
     height: 54px;
-    font: 700 20px/50px 'Myriad Pro';
+    font: 700 20px/50px 'Myriad Pro', sans-serif;
     text-align: center;
     cursor: pointer;
 }
